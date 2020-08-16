@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: springboot-app
+server:
+  port: 9000
+
+management:
+    endpoints:
+      jmx:
+        exposure:
+          include: health,info
+      web:
+        exposure:
+          exclude: env,beans
