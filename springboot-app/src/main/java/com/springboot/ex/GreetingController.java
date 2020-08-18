@@ -3,6 +3,8 @@ package com.springboot.ex;
 import java.util.concurrent.atomic.AtomicLong;
 
 import com.springboot.service.EmployeeService;
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -23,7 +25,7 @@ public class GreetingController {
         return new Greeting(counter.incrementAndGet(), String.format(template, name));
     }
 
-    @GetMapping("/employeedetails")
+    @GetMapping("/employeedetails/{id}")
     public Employee getEmployeeDetails(@PathVariable("id") long employeeId) {
         Employee e = service.getEmployeeDetails(employeeId);
         return e;

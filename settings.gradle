@@ -2,4 +2,5 @@ rootProject.name = 'java-projects-training'
 include 'oops'
 include 'springboot-app'
 include 'spring-di'
+include 'aop-demo'
 

@@ -25,6 +25,8 @@ dependencies {
     //implementation 'org.springframework.boot:spring-boot-starter-data-jpa:2.2.2.RELEASE'
     compileOnly 'org.projectlombok:lombok:1.18.12'
     annotationProcessor 'org.projectlombok:lombok:1.18.12'
+    compile group: 'org.aspectj', name: 'aspectjweaver', version: '1.9.6'
+    compile group: 'org.aspectj', name: 'aspectjrt', version: '1.9.6'
     testImplementation('org.springframework.boot:spring-boot-starter-test') {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
     }
