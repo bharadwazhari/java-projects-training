@@ -15,6 +15,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/aop-demo" />
             <option value="$PROJECT_DIR$/oops" />
+            <option value="$PROJECT_DIR$/simple-core" />
             <option value="$PROJECT_DIR$/spring-di" />
             <option value="$PROJECT_DIR$/springboot-app" />
           </set>

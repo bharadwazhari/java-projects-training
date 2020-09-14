@@ -3,4 +3,5 @@ include 'oops'
 include 'springboot-app'
 include 'spring-di'
 include 'aop-demo'
+include 'simple-core'
 
